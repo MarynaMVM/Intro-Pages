@@ -58,3 +58,22 @@ body {
   color: var(--color);
   margin: 20px;
 }
+
+@media (max-width: 800px) {
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .buttons {
+    padding: 12px;
+  }
+}
